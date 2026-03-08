@@ -2,6 +2,6 @@ package test
 
 import "fmt"
 
-func test() {
+func qwe() {
 	fmt.Println("afnlaskjf")
 }
