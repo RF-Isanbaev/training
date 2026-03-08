@@ -7,7 +7,7 @@ import (
 
 func main() {
 	x := 0
-	a := 5
+	a := 6
 	b := 0
 	for {
 		x = +1
