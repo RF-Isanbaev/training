@@ -1,20 +1,17 @@
 package main
 
-import (
-	"fmt"
-	"time"
-)
+import "fmt"
 
 func main() {
-	x := 0
-	a := 5
-	b := 0
-	for {
-		x = +1
-		b = x
-		text := (a + b) / 2
-		fmt.Printf("Среднее число между 5 и (от 0 до 30) : %d\n", text)
-		time.Sleep(1 * time.Second)
-	}
+	// Ваш код здесь
+	var Tovar1 = "Ноутбук"
+	var Price1 = 45000
+	var availability1 = false
+	var NDS = 20
+	//var Tovar2 = "Мышь"
+	//var Price2 = 1200
+	//var availability2 = false
 
+	fmt.Printf("Товар: %s\nЦена: %d руб.\nВ наличxczии: %v\nНДС: %d%%\n\n", Tovar1, Price1, availability1, NDS)
+	//fmt.Printf("Товар: %s\nЦена: %d руб.\nВ наличии: %v\nНДС: %d%%", Tovar2, Price2, availability2, NDS)
 }
