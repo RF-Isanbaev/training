@@ -6,9 +6,9 @@ import (
 )
 
 func main() {
-	x := 1
+	x := 0
 	a := 5
-	b := 2
+	b := 0
 	for {
 		x = +1
 		b = x
