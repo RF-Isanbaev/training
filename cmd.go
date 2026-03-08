@@ -16,5 +16,6 @@ func main() {
 		fmt.Printf("Среднее число между 5 и (от 0 до 30) : %d\n", text)
 		time.Sleep(1 * time.Second)
 	}
+//добоавил просто коммит в код
 
 }
